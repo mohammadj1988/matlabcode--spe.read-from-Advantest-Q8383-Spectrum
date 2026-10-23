@@ -12,7 +12,7 @@ function [wavelength, power_W, power_dBm] = read_advantest_spe(filename)
 % The function also plots the spectrum in dBm (OSA-style).
 
 if nargin < 1
-    filename = 'w3.SPE';
+    filename = 'f1.SPE';
 end
 
 %% --- Open file ---
